@@ -9,14 +9,14 @@
 }
 
 [data-theme="light"] {
-  --color: #202c37;
+  --color-text: #202c37;
   --background-main: #fcfcfc;
   --background-secondary: #ffffff;
-  --border-color: #979797;
+  --color-bordor: #979797;
 }
 
 [data-theme="dark"] {
-  --color: #ffffff;
+  --color-text: #ffffff;
   --background-main: #202c36;
   --background-secondary: #2b3844;
 }

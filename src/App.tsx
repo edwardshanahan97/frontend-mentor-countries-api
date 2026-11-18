@@ -1,9 +1,11 @@
+import Navbar from "./assets/components/Navbar/Navbar";
+
 const App = () => {
-  let theme: string = "light";
+  let theme: string = "dark";
 
   return (
     <div className="app" data-theme={theme}>
-      <h1>REST Countries API</h1>
+      <Navbar />
     </div>
   );
 };
