@@ -1,4 +1,4 @@
-import Navbar from "./assets/components/Navbar/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
   let theme: string = "dark";
