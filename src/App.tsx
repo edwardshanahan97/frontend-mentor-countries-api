@@ -4,7 +4,7 @@ import Home from "./components/Home/Home";
 import Country from "./components/Country/Country";
 
 const App = () => {
-  let theme: string = "light";
+  let theme: string = "dark";
 
   return (
     <div className="app" data-theme={theme}>

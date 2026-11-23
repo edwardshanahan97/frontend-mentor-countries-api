@@ -44,3 +44,19 @@ body {
   background-color: var(--background-main);
   height: 100vh;
 }
+
+main {
+  padding: 0 1.6rem;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 0 4rem;
+  }
+}
+
+@media (min-width: 1040px) {
+  main {
+    padding: 0 8rem;
+  }
+}
