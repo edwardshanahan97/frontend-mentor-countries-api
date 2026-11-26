@@ -1,7 +1,11 @@
+import countries from "../../data/data.json";
+
 const CountriesList = () => {
   return (
     <div>
-      <h1>Countries List</h1>
+      {countries.map(({ name }) => (
+        <div>{name}</div>
+      ))}
     </div>
   );
 };
